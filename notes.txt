@@ -1,0 +1,16 @@
+Steps to start project:-
+1. create a folder
+2. open terminal and go that folder 
+3. run command - npm init -y [for package.json]
+4. open folder
+5. open terminal
+6. npm i nodemon [for automatic execution of server whenever there is any change in code]
+7. go to package.json
+8. "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+
+9. in terminal -> npm i express [then] npm run dev [then] npm i dotenv [then] npm i mongoose
+10. In index.js ->
+    . create server -> activate server -> route default 
